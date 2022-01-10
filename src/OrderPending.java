@@ -14,6 +14,7 @@ public class OrderPending implements ShoppingOrderState{
 
     @Override
     public void approvePayment(ShoppingOrder order) {
+        System.out.println("O pagamento esta sendo aprovado!");
         order.setState(new OrderApproved(order));
     }
 

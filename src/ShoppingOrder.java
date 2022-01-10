@@ -1,6 +1,9 @@
 public class ShoppingOrder {
     private ShoppingOrderState state;
 
+    public ShoppingOrder(){
+        this.state = new OrderPending(this);
+    }
 
     public ShoppingOrderState getState() {
         return state;

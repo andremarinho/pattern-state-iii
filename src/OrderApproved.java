@@ -19,16 +19,18 @@ public class OrderApproved implements ShoppingOrderState{
 
     @Override
     public void rejectPayment(ShoppingOrder order) {
+        System.out.println("O pagamento esta sendo rejeitado");
         order.setState(new OrderRejected(order));
     }
 
     @Override
     public void waitPayment(ShoppingOrder order) {
+
         order.setState(new OrderPending(order));
     }
 
     @Override
     public void shipOrder(ShoppingOrder order) {
-
+        System.out.println("A encomenda esta sendo enviada!");
     }
 }

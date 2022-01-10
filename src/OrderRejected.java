@@ -24,11 +24,11 @@ public class OrderRejected implements ShoppingOrderState{
 
     @Override
     public void waitPayment(ShoppingOrder order) {
-
+        System.out.println("O tentativa de colocar para o pagamento, mas o mesmo já estava rejeitado");
     }
 
     @Override
     public void shipOrder(ShoppingOrder order) {
-
+        System.out.println("Não posso enviar um pedido que esta como rejeitado.");
     }
 }

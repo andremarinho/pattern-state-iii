@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Funcionou");
+        ShoppingOrder order = new ShoppingOrder();
+        order.paymentApprove();
+        //order.paymentReject();
+        order.ship();
     }
 }
