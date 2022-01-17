@@ -31,3 +31,6 @@ This makes a class independent of how state-specific behavior is implemented. Ne
 
 <img src="statepattern1.png" alt="diagram state pattern">
 
+## Diagram State Pattern
+<img src="State.png" alt="diagram state pattern">
+
