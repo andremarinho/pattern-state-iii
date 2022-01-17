@@ -39,5 +39,12 @@ This makes a class independent of how state-specific behavior is implemented. Ne
 
 # About Project
 
+The user  expects to see the following state transitions when using the ecommerce program:
+
+1 - Startup in the initial state OrderPending.
+2 - Moving from the initial state into the paymentApprove.
+3 - Moving from the purchase state into the paymentReject.
+4 - Moving from the ship.
+
 
 
