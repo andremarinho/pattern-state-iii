@@ -29,3 +29,5 @@ Define separate (state) objects that encapsulate state-specific behavior for eac
 A class delegates state-specific behavior to its current state object instead of implementing state-specific behavior directly.
 This makes a class independent of how state-specific behavior is implemented. New states can be added by defining new state classes. A class can change its behavior at run-time by changing its current state object.
 
+<img src="statepattern1.png" alt="diagram state pattern">
+
