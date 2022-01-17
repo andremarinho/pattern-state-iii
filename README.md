@@ -37,7 +37,7 @@ This makes a class independent of how state-specific behavior is implemented. Ne
 ## Diagram State Pattern
 <img src="State.png" alt="diagram state pattern">
 
-#About Projetc
+# About Projetc
 
 
 
