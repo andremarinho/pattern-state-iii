@@ -46,5 +46,7 @@ The user  expects to see the following state transitions when using the ecommerc
 3. Moving from the purchase state into the paymentReject.
 4. Moving from the ship.
 
+<img src="diagram.png" alt="diagram projetc">
+
 
 
