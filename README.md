@@ -6,8 +6,6 @@
 
 Project is example use state pattern describe work, objective is learn.
 
-## 🔧 System E-commerce with functions: approve payment, reject payment, ship order. 
-
 ## About State Pattern
 
 From Wikipedia, the free encyclopedia
@@ -38,6 +36,8 @@ This makes a class independent of how state-specific behavior is implemented. Ne
 <img src="State.png" alt="diagram state pattern">
 
 # About Project
+
+## 🔧 System E-commerce with functions: approve payment, reject payment, ship order.
 
 The user  expects to see the following state transitions when using the ecommerce program:
 
