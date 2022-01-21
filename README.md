@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> 
 
-# State Pattern
+# State Pattern - Behavioral Pattern
 
 Project is example use state pattern describe work, objective is learn.
 
